@@ -13,10 +13,10 @@ No arquivo protected/data/db.sql, encontram-se os comandos para criação das ta
 No arquivo index.php, é necessário informar o endereço para acessar o projeto e as informações para conexão com a base de dados.
 
 Para controle das etapas da Batalha, foram criados alguns status:
-__AGUARDANDO_OPONENTE__ - quando a batalha é iniciada, o jogador que inicia fica aguardando um segundo jogador. 
-__INICIATIVA__ - antes de iniciar uma rodada, verifica-se quem será o primeiro a jogar. Esta etapa foi chamada de Iniciativa.
-__EM_CONFRONTO__ - cada confronto é composto por um ataque e uma defesa. Cada Rodada tem 2 confrontos.
-__FINALIZADO__ - quando a pontuação de vida de um dos jogadores chegar a 0 ou menos. 
+* __AGUARDANDO_OPONENTE__ - quando a batalha é iniciada, o jogador que inicia fica aguardando um segundo jogador. 
+* __INICIATIVA__ - antes de iniciar uma rodada, verifica-se quem será o primeiro a jogar. Esta etapa foi chamada de Iniciativa.
+* __EM_CONFRONTO__ - cada confronto é composto por um ataque e uma defesa. Cada Rodada tem 2 confrontos.
+* __FINALIZADO__ - quando a pontuação de vida de um dos jogadores chegar a 0 ou menos. 
 
 
 ### Instruções
