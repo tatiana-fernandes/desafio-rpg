@@ -1,0 +1,231 @@
+body {
+    background: #e0ebeb;
+}
+
+#conteudo {
+    text-align: center;
+}
+
+#formIdentificacao {
+    display:inline-block;
+    margin-top: 10%;
+    padding:5%;
+    border: 3px solid #BDBDBD;
+    background: #F2F2F2;
+}
+
+#mensagem {
+   border: 1px solid #ffe066; 
+   background:#fff5cc;     
+}
+
+.titulo {
+    margin-bottom: 10px;
+    padding:5px;
+    background: #004080;
+    font-size:20px;
+    color: #FFFFFF;
+}
+
+.linksBatalha {
+     display:inline-block;
+    //margin-top: 10%;
+    margin-left: 5px;
+    margin-bottom:3px;
+    padding:1%;
+    border: 1px solid #BDBDBD;
+    background: #F2F2F2;
+    text-decoration: none;
+}
+
+#containerPainel {
+   display:inline-block;
+   width:80%;     
+}
+
+.painel {
+    width:35%;
+    
+}
+
+.painel fieldset {
+    border: 2px solid #BDBDBD;
+    background: #FFFFFF;
+    font-weight:bold;
+}
+
+#eu {
+    float: left;
+}
+
+#oponente {
+    float: right;
+    //margin-left: 2%;
+}
+
+.containerPontuacaoVida {
+    float:right; 
+    margin-top:-30px; 
+    padding: 10px; 
+    min-height:40px;
+    min-width: 40px;
+    //border: 1px solid #cc0000;
+    border-radius: 5px;
+    background: #004080; 
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.pontuacaoVida {
+    font-size:26px;
+}
+
+.containerArmaAtaque {
+    display: inline-block;
+    border:1px solid #BDBDBD;
+    background: #66b3ff;
+    padding: 3px;
+}
+
+.armaAtaque {
+  display: inline-block;  
+  padding: 0 3px;
+  background: #FFFFFF;
+  //border-radius: 5px;
+}
+
+.containerArmaDefesa {
+    display: inline-block;
+    border:1px solid #BDBDBD;
+    background: #ff944d;
+    padding: 3px;
+}
+
+.armaDefesa {
+    display: inline-block; 
+    padding: 0 3px;
+    background: #FFFFFF;
+}
+
+.containerFacesDadoDano {
+    display: inline-block;
+    border:1px solid #BDBDBD;
+    background: #ff3333;
+    padding: 3px;
+}
+
+.facesDadoDano {
+    display: inline-block; 
+    padding: 0 3px;
+    background: #FFFFFF;
+}
+
+.containerPersonagem {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 3px;
+    border:1px solid #BDBDBD;
+    background: #004080; 
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.containerIniciativaRodada {
+    display: inline-block;
+    margin-top: 30px;
+    border: 2px solid #BDBDBD;
+    
+}
+
+.tituloIniciativaRodada {
+    padding: 5px;
+    background: #004080;
+    font-size:16px;
+    color: #FFFFFF;
+}
+
+.containerIniciativa {
+     display: inline-block;
+    //margin-top: 30px;
+    //margin-bottom: 20px;
+    //border: 1px solid #BDBDBD;
+}
+
+.iniciativa {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    background: #ffb84d;
+    font-size: 24px;
+}
+
+.containerJogada {
+    display:inline-block;
+    min-height:100px;
+    min-width: 200px;
+    border: 1px solid #99ccff;
+    border-radius:150px;
+    background: #e6f2ff;
+}
+
+.jogada {
+    font-size:70px;
+    min-height:80px;
+    min-width: 200px;
+}
+
+.containerDano {
+    display:inline-block;
+    margin-left:5%;
+    min-height:50px;
+    min-width: 50px;
+    border: 1px solid #ff8c66;
+    background:  #ffb399;
+}
+
+.dano {
+}
+
+.tipoJogada {
+        margin-top:10px;
+}
+
+#status {
+    display:inline-block;
+    margin-top:40px;
+    padding:10px 20px;
+    border: 1px solid #BDBDBD;
+    background: #FFFFFF;
+}
+
+#botao {
+    margin-top: 10px;
+    padding:10px;
+}
+
+.botaoJogar {
+    background-color:#003366;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+.botaoIniciativa {
+    background-color:#ffa31a;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#historico {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top:2px solid #BDBDBD;
+    background: #FFFFFF;
+}
+
+#historico hr {
+    color: #BDBDBD;
+}
+
+#historico span {
+    background: #b3d9ff;
+}
