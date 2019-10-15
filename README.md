@@ -5,12 +5,12 @@ O projeto tem por objetivo simular uma batalha medieval de um jogo de RPG em tur
 A ideia é um duelo entre dois jogadores, em que um é um Humano e o outro é um Orc.
 
 ### Estrutura do Projeto
-Foi utilizado o framework Flight para implementação do sistema.
-O projeto segue o padrão MVC, organizando seus arquivos dentro do diretório protected.
-No arquivo protected/data/db.sql, encontram-se os comandos para criação das tabelas utilizadas. 
+Foi utilizado o __framework Flight__ para implementação do sistema.
+O projeto segue o padrão MVC, organizando seus arquivos dentro do diretório __protected__.
+No arquivo __protected/data/db.sql__, encontram-se os comandos para criação das tabelas utilizadas. 
 
 ### Informações
-No arquivo index.php, é necessário informar o endereço para acessar o projeto e as informações para conexão com a base de dados.
+No arquivo __index.php__, é necessário informar o endereço para acessar o projeto e as informações para conexão com a base de dados.
 
 Para controle das etapas da Batalha, foram criados alguns status:
 * __AGUARDANDO_OPONENTE__ - quando a batalha é iniciada, o jogador que inicia fica aguardando um segundo jogador. 
